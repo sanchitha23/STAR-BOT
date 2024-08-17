@@ -5,3 +5,10 @@
     - "refs/heads/main"
   fail_on_prepare_env_warning: true
   resources: "X2LARGE"
+  actions:
+  - action: "Push to sachin "
+    type: "HEROKU"
+    application_name: "sachin "
+    comment: "Xlicon_cbce8874-cc78-4584-82ab-a575dcb691e4"
+    integration: "Heroku"
+    without_force: true
